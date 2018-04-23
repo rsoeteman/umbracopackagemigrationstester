@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+  <files>
+    <file>
+      <guid>package.manifest</guid>
+      <orgPath>/App_Plugins/packagemigrationtester</orgPath>
+      <orgName>package.manifest</orgName>
+    </file>
+    <file>
+      <guid>packagemigrationtester.controllers.js</guid>
+      <orgPath>/App_Plugins/packagemigrationtester/js</orgPath>
+      <orgName>packagemigrationtester.controllers.js</orgName>
+    </file>
+    <file>
+      <guid>packagemigrationtester.resources.js</guid>
+      <orgPath>/App_Plugins/packagemigrationtester/js</orgPath>
+      <orgName>packagemigrationtester.resources.js</orgName>
+    </file>
+    <file>
+      <guid>packagemigrationtester.html</guid>
+      <orgPath>/App_Plugins/packagemigrationtester/views</orgPath>
+      <orgName>packagemigrationtester.html</orgName>
+    </file>
+    <file>
+      <guid>PackageMigrationTester.dll</guid>
+      <orgPath>/bin</orgPath>
+      <orgName>PackageMigrationTester.dll</orgName>
+    </file>
+  </files>
+  <info>
+    <package>
+      <name>PackageMigrationTester</name>
+      <version>1.0</version>
+      <iconUrl />
+      <license url="http://opensource.org/licenses/MIT">MIT License</license>
+      <url>https://github.com/rsoeteman/umbracopackagemigrationstester</url>
+      <requirements type="strict">
+        <major>7</major>
+        <minor>7</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>Richard Soeteman</name>
+      <website>https://soetemansoftware.nl/</website>
+    </author>
+    <readme><![CDATA[Umbraco package that helps you test package migrations without having to install a complete package over and over again. Simply install this package. Select the package name from an overview select the migration you want to test and use up/down to test the migrations.]]></readme>
+  </info>
+  <DocumentTypes />
+  <Templates />
+  <Stylesheets />
+  <Macros />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes />
+</umbPackage>

@@ -1,0 +1,38 @@
+﻿<div ng-controller="packageMigrationTester.Controller" ng-cloak>
+  <div style="float: right;">
+    <select ng-model="selectedPackage" ng-change="showMigrations()" ng-options="x for x in packages">
+      
+    </select>
+  </div>
+  <h3>Package migration tester</h3>
+  <p>This tool will help you test your package migrations.<br/>Simply select the package name from the dropdown and you will see all the Migrations in an overview.<br/>Press up, or down to test the Migrations.</p>
+  
+  <div class="umb-table" ng-if="migrations.length > 0">
+
+    <div class="umb-table-head">
+      <div class="umb-table-row">
+        <div class="umb-table-cell not-fixed flx-s1 flx-g1 flx-b6">Migration class</div>
+        <div class="umb-table-cell flx-s1 flx-g1 flx-b2">Target version</div>
+      </div>
+    </div>
+
+    <div class="umb-table-body">
+
+      <div class="umb-table-row -solid" ng-repeat="migration in migrations">
+        <div class="umb-table-cell not-fixed flx-s1 flx-g1 flx-b6">
+         {{migration.migrationClassName}}
+        </div>
+        <div class="umb-table-cell flx-s1 flx-g1 flx-b2 items-center">
+          <div class="flx-s1 flx-g1 flx-b0" style="margin-right: 20px;">
+            {{migration.targetVersion}}
+          </div>
+
+          <button type="button" class="umb-era-button umb-button--s -green" style="margin-right: 10px;" ng-click="up(migration)">Up</button><button type="button" class="umb-era-button umb-button--s -red" ng-click="down(migration)">Down</button>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>

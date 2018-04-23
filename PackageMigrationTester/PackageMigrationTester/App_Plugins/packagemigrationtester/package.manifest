@@ -1,0 +1,6 @@
+﻿{
+    "javascript" : [
+        "~/app_plugins/packagemigrationtester/js/packagemigrationtester.resources.js",
+        "~/app_plugins/packagemigrationtester/js/packagemigrationtester.controllers.js"
+    ]
+}

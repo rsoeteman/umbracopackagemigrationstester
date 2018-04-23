@@ -17,3 +17,7 @@
 
 # ImageProcessor DiskCache 
 **/App_Data/cache/
+.vs
+/PackageMigrationTester/PackageMigrationTester/bin
+/PackageMigrationTester/PackageMigrationTester/obj
+/PackageMigrationTester/packages
