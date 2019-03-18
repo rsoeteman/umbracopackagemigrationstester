@@ -26,17 +26,112 @@
       <orgPath>/bin</orgPath>
       <orgName>PackageMigrationTester.dll</orgName>
     </file>
+	<file>
+      <guid>cs-CZ.xml</guid>
+      <orgPath>/App_Plugins/packagemigrationtester/lang/</orgPath>
+      <orgName>cs-CZ.xml</orgName>
+    </file>
+	<file>
+      <guid>da-DK.xml</guid>
+      <orgPath>/App_Plugins/packagemigrationtester/lang/</orgPath>
+      <orgName>da-DK.xml</orgName>
+    </file>
+	<file>
+      <guid>de-DE.xml</guid>
+      <orgPath>/App_Plugins/packagemigrationtester/lang/</orgPath>
+      <orgName>de-DE.xml</orgName>
+    </file>
+	<file>
+      <guid>en-GB.xml</guid>
+      <orgPath>/App_Plugins/packagemigrationtester/lang/</orgPath>
+      <orgName>en-GB.xml</orgName>
+    </file>
+	<file>
+      <guid>en-US.xml</guid>
+      <orgPath>/App_Plugins/packagemigrationtester/lang/</orgPath>
+      <orgName>en-US.xml</orgName>
+    </file>
+	<file>
+      <guid>es-ES.xml</guid>
+      <orgPath>/App_Plugins/packagemigrationtester/lang/</orgPath>
+      <orgName>es-ES.xml</orgName>
+    </file>
+	<file>
+      <guid>fr-FR.xml</guid>
+      <orgPath>/App_Plugins/packagemigrationtester/lang/</orgPath>
+      <orgName>fr-FR.xml</orgName>
+    </file>
+	<file>
+      <guid>he-IL.xml</guid>
+      <orgPath>/App_Plugins/packagemigrationtester/lang/</orgPath>
+      <orgName>he-IL.xml</orgName>
+    </file>
+	<file>
+      <guid>it-IT.xml</guid>
+      <orgPath>/App_Plugins/packagemigrationtester/lang/</orgPath>
+      <orgName>it-IT.xml</orgName>
+    </file>
+	<file>
+      <guid>ja-JP.xml</guid>
+      <orgPath>/App_Plugins/packagemigrationtester/lang/</orgPath>
+      <orgName>ja-JP.xml</orgName>
+    </file>
+	<file>
+      <guid>ko-KR.xml</guid>
+      <orgPath>/App_Plugins/packagemigrationtester/lang/</orgPath>
+      <orgName>ko-KR.xml</orgName>
+    </file>
+	<file>
+      <guid>nb-NO.xml</guid>
+      <orgPath>/App_Plugins/packagemigrationtester/lang/</orgPath>
+      <orgName>nb-NO.xml</orgName>
+    </file>
+	<file>
+      <guid>nl-NL.xml</guid>
+      <orgPath>/App_Plugins/packagemigrationtester/lang/</orgPath>
+      <orgName>nl-NL.xml</orgName>
+    </file>
+	<file>
+      <guid>pl-PL.xml</guid>
+      <orgPath>/App_Plugins/packagemigrationtester/lang/</orgPath>
+      <orgName>pl-PL.xml</orgName>
+    </file>
+	<file>
+      <guid>pt-BR.xml</guid>
+      <orgPath>/App_Plugins/packagemigrationtester/lang/</orgPath>
+      <orgName>pt-BR.xml</orgName>
+    </file>
+	<file>
+      <guid>ru-RU.xml</guid>
+      <orgPath>/App_Plugins/packagemigrationtester/lang/</orgPath>
+      <orgName>ru-RU.xml</orgName>
+    </file>
+	<file>
+      <guid>sv-SE.xml</guid>
+      <orgPath>/App_Plugins/packagemigrationtester/lang/</orgPath>
+      <orgName>sv-SE.xml</orgName>
+    </file>
+	<file>
+      <guid>tr-TR.xml</guid>
+      <orgPath>/App_Plugins/packagemigrationtester/lang/</orgPath>
+      <orgName>tr-TR.xml</orgName>
+    </file>
+<file>
+      <guid>zh-CN.xml</guid>
+      <orgPath>/App_Plugins/packagemigrationtester/lang/</orgPath>
+      <orgName>zh-CN.xml</orgName>
+    </file>
   </files>
   <info>
     <package>
       <name>PackageMigrationTester</name>
-      <version>1.0</version>
+      <version>1.8</version>
       <iconUrl />
       <license url="http://opensource.org/licenses/MIT">MIT License</license>
       <url>https://github.com/rsoeteman/umbracopackagemigrationstester</url>
       <requirements type="strict">
-        <major>7</major>
-        <minor>7</minor>
+        <major>8</major>
+        <minor>0</minor>
         <patch>0</patch>
       </requirements>
     </package>

@@ -2,5 +2,13 @@
     "javascript" : [
         "~/app_plugins/packagemigrationtester/js/packagemigrationtester.resources.js",
         "~/app_plugins/packagemigrationtester/js/packagemigrationtester.controllers.js"
+    ],
+    "dashboards":  [
+      {
+        "alias": "packagemigrationtester",
+        "view":  "/app_plugins/packagemigrationtester/views/packagemigrationtester.html",
+        "sections":  [ "settings" ],
+        "weight": 100
+      }
     ]
 }

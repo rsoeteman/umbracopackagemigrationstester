@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>PackageMigrationTester</id>
-    <version>1.0.0</version>
+    <version>1.8.0</version>
     <authors>Richard Soeteman</authors>
     <owners>Soeteman Software</owners>
     <licenseUrl>https://github.com/rsoeteman/umbracopackagemigrationstester/blob/master/LICENSE</licenseUrl>
@@ -11,7 +11,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Umbraco package that helps you test package migrations without having to install a complete package over and over again. Simply install this package. Select the package name from an overview select the migration you want to test and use up/down to test the migrations.</description>
     <releaseNotes>- Initial release</releaseNotes>
-    <copyright>Copyright 2018</copyright>
+    <copyright>Copyright 2018-2019</copyright>
     <tags>umbraco</tags>
   </metadata>
 </package>

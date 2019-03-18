@@ -8,7 +8,7 @@ namespace PackageMigrationTester.Model
         [JsonProperty("migrationClassName")]
         public string MigrationClassName{get;set;}
 
-        [JsonProperty("targetVersion")]
-        public string TargetVersion{get;set;}
+        [JsonProperty("assemblyQualifiedName")]
+        public string AssemblyQualifiedName{get;set;}
     }
 }

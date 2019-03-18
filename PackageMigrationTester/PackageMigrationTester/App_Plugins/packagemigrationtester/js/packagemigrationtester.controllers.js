@@ -17,23 +17,15 @@
             });
         };
 
-        $scope.up = function (migration) {
-            packageMigrationTesterResources.up(migration).then(function (res) {
-                notificationsService.success('Installed', 'Package Migration executed succesfully');
+        $scope.migrate = function (migration) {
+            packageMigrationTesterResources.migrate(migration).then(function (res) {
+                notificationsService.success('Migration', 'Package Migration executed succesfully');
                 },
                 function (data) {
                     notificationsService.error('Error', 'Error occured during install');
                 });
         };
 
-        $scope.down = function (migration) {
-            packageMigrationTesterResources.down(migration).then(function (res) {
-                notificationsService.success('Uninstalled', 'Package Migration executed succesfully');
-            },
-                function (data) {
-                    notificationsService.error('Error', 'Error occured during uninstall');
-                });
-        };
 
         $scope.bindData();
     });

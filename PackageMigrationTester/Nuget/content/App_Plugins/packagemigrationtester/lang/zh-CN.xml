@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<language alias="zh" intName="Chinese (Simple)" localName="中文（简体，中国）" lcid="0804" culture="zh-CN">
+  <creator>
+    <name>Soeteman software</name>
+    <link>https://github.com/rsoeteman/umbracopackagemigrationstester</link>
+  </creator>
+  <area alias="dashboardTabs">
+    <key alias="packagemigrationtester">Package migration tester</key>
+  </area>
+</language>

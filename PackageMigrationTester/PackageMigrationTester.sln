@@ -9,6 +9,7 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+		testv8.local|Any CPU = testv8.local|Any CPU
 		umbracov7|Any CPU = umbracov7|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
@@ -16,6 +17,8 @@ Global
 		{028F1263-3AEE-4B5B-9155-019DB7C6CAFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{028F1263-3AEE-4B5B-9155-019DB7C6CAFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{028F1263-3AEE-4B5B-9155-019DB7C6CAFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{028F1263-3AEE-4B5B-9155-019DB7C6CAFF}.testv8.local|Any CPU.ActiveCfg = testv8.local|Any CPU
+		{028F1263-3AEE-4B5B-9155-019DB7C6CAFF}.testv8.local|Any CPU.Build.0 = testv8.local|Any CPU
 		{028F1263-3AEE-4B5B-9155-019DB7C6CAFF}.umbracov7|Any CPU.ActiveCfg = umbracov7|Any CPU
 		{028F1263-3AEE-4B5B-9155-019DB7C6CAFF}.umbracov7|Any CPU.Build.0 = umbracov7|Any CPU
 	EndGlobalSection

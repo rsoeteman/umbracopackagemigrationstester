@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<language alias="pl" intName="Polish" localName="polski" lcid="21" culture="pl-PL">
+  <creator>
+    <name>Soeteman software</name>
+    <link>https://github.com/rsoeteman/umbracopackagemigrationstester</link>
+  </creator>
+  <area alias="dashboardTabs">
+    <key alias="packagemigrationtester">Package migration tester</key>
+  </area>
+</language>
